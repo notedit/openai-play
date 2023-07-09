@@ -8,9 +8,6 @@ import os
 import openai
 
 
-os.environ["OPENAI_API_BASE"] = "https://avchat-api.woa.com/v1"
-os.environ["OPENAI_API_KEY"] = "leolxliu"
-
 openai.debug = True
 openai.log = "debug"
 
