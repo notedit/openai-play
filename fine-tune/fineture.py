@@ -9,7 +9,7 @@ openai.log = "debug"
 openai.api_key = os.getenv("OPENAI_API_KEY")
 
 training_response = openai.File.create(
-  file=open("dataset-test.jsonl", "rb"),
+  file=open("gpt3.5_output.jsonl", "rb"),
   purpose='fine-tune'
 )
 
